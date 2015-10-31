@@ -1,0 +1,23 @@
+Software upgrade and a Merge Google Apps Domain representative User follow up with promptly:
+CPanelHome
+CNAME
+MX
+Edit Zone
+
+<?php
+$array1 = array(0 => 'apps_a', 2 => 'domain_a', 3 => 'cpanelhome_a', 4 => 'cname_a', 5 => 'mx_a');
+$array2 = array(1 => 'dns_b', 3 => 'ns_b', 4 => 'url_b');
+$result = $array1 + $array2;
+var_dump($result);
+echo "a=";print_r($a);
+$a = array_merge($a, $b});
+//$a is still unset.
+$die "merge" is empty (unset)
+function array_merge_keys(){
+    $args = func_get_args();
+    $result = array();
+    foreach($args as &$array){
+        foreach($array as $key=>&$value){
+            $result[$key] = $value;
+        }
+?>
